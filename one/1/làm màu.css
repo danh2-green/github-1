@@ -1,0 +1,26 @@
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(8, 252, 8);
+}
+.hang {
+  background-color: rgb(105, 105, 105);
+}
+ul,
+ol {
+  border-top: 5px solid rgb(255, 0, 0);
+  border-bottom: 5px solid rgb(255, 0, 0);
+}
+.ron {
+  background-color: black;
+  text-align: center;
+}
+.trên {
+  color: aqua;
+  background-color: rgb(208, 148, 27);
+}
+li {
+  background-color: rgb(105, 105, 105);
+  color: aqua;
+}

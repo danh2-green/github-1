@@ -1,0 +1,65 @@
+*h1,
+h2,
+h3,
+h4 {
+  color: rgb(8, 252, 8);
+  ::before {content:url(img\ảnh-cười.jpg)}
+  ::selection {
+    color: red;
+    background: yellow;
+  }
+}
+.hang {
+  background-color: rgb(105, 105, 105);
+}
+ul,
+ol {
+  border-top: 5px solid rgb(255, 0, 0);
+  border-bottom: 5px solid rgb(255, 0, 0);
+  list-style-type:decimal-leading-zero ;
+  list-style-position:initial;
+  list-style-image:linear-gradient(to left bottom, red, blue);
+  text-transform:capitalize;
+}
+.ron {
+  background-color: black;
+  text-align: center;
+}
+.trên {
+  color: aqua;
+  background-color: rgb(208, 148, 27);
+}
+li {
+  background-color: rgb(105, 105, 105);
+  color: aqua;*/
+}
+p :last-child {
+  color: aquamarine;
+}
+a:link {
+  color: aquamarine;
+  text-decoration: none;}
+  a:hover {
+    background: blue;
+  }
+
+.nút-liên-kết {
+  padding: 0;
+  margin-top:10px;
+  width: 100%;
+  display: inline;
+cursor:default;}
+ .nút-liên-kết-2 {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width:31%;
+    color: white;
+    background-color: green;
+  }
+  
+  

@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  line-height: 25px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+
+  padding: 40px;
+}
+.section {
+  position: relative;
+}
+.section-title {
+  border-bottom: solid #828282 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-content div {
+  border-bottom: solid #eeeeee 2px;
+}
+#target div {
+  margin-top: 20px;
+}
+div:first-child {
+  padding-top: 10px;
+}
+h3:first-child {
+  padding-top: 10px;
+}
+h1 {
+  color: #0e2452;
+}
+h2 {
+  margin-top: 40px;
+}
+h3 {
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+strong {
+  width: 100px;
+  display: inline-block;
+}
+a {
+  width: 200px;
+  display: inline-block;
+}
+img {
+  position: absolute;
+  right: 0;
+  height: 50%;
+}
+#project div p {
+  margin-top: -5px;
+}
+
+#experience div ul {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  max-width: 620px;
+  list-style: "-" inside;
+}
+ul,
+ol {
+  list-style-position: inside;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+  background-color: #fff;
+}
+a:link:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline wavy orangered;
+}
+a:active:link {
+  font-style: italic;
+}
+#contact div {
+  margin-top: 20px;
+  border-bottom: solid #eeeeee 2px;
+}

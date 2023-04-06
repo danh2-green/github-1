@@ -1,0 +1,130 @@
+ul p:last-child /*([phần tử] con cuối cùng),first-child {con đầu tiên},nth-child(odd{con lẻ},even{con chẵn})*/ {
+  color: rgb(237, 119, 202);
+  background-color: #fff;
+  margin-top: 5px;
+  list-style: sqare inside
+    url("lovepik-vector-fruit-illustration-grapes-png-image_401311973_wh1200.png");
+}
+a:link {
+  color: aquamarine;
+  text-decoration: none;
+}
+a:visited {
+  color: violet;
+  background-color: #fff;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline wavy orangered;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+li {
+  padding-top: 5px;
+}
+li:first-child {
+  padding-top: 0;
+}
+h2,
+h3 {
+  display: inline-block;
+  margin: 10px;
+}
+.như-ý {
+  width: 100%;
+  height: auto;
+}
+#position {
+  position: relative;
+}
+h1::after {
+  content: "ĐAU";
+  background-color: red;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  top: 90px;
+  right: 0px;
+  padding: 7px 15px;
+}
+* {
+  background-color: aquamarine;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* h3 {
+  float: right;
+  top: 0;
+} */
+.khung {
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: 0;
+  border: /*groove outset*/ inset chartreuse 20px;
+
+  padding: 50px 25px;
+}
+.khung-nổi {
+  border: /*groove outset*/ inset chartreuse 20px;
+  background-color: aquamarine;
+}
+.khung-chìm {
+  border: outset rgb(87, 171, 4) 20px;
+  background-color: rgb(25, 59, 6);
+}
+
+h3,
+h2,
+article header {
+  border: inset chartreuse 5px;
+  background-color: aquamarine;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+h3 {
+}
+/* phao nhỏ */
+article div:last-child {
+  float: right;
+  width: 45%;
+}
+article div:nth-last-child(2) {
+  float: left;
+  width: 45%;
+}
+
+.diệt-phao::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* tạo grid  */
+body {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  column-gap: 80px;
+  row-gap: 40px;
+  background-color: rgb(99, 189, 9);
+}
+footer {
+  grid-column: 1/-1;
+}
+
+/* grid đè  */
+.grid {
+  display: grid;
+  /* grid-template-rows: repeat(auto-fit, minmax(400px, 1fr)); */
+  grid-template-rows: 1fr 1fr;
+  gap: 40px;
+  background-color: rgb(99, 189, 9);
+}
